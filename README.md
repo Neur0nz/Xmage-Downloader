@@ -45,6 +45,7 @@ The extension is built using:
 ## TODO
 - add support for mtgtop8
 - add support for archidekt
+- Improve the downloading mechansim
 ## License
 
 MIT License 
