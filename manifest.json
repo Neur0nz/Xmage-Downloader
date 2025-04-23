@@ -1,0 +1,30 @@
+{
+    "manifest_version": 3,
+    "name": "Xmage Deck Downloader",
+    "version": "1.0",
+    "description": "Download MTG decks from various platforms in XMage format",
+    "permissions": [
+      "activeTab",
+      "downloads",
+      "scripting"
+    ],
+    "host_permissions": [
+      "https://www.mtggoldfish.com/*",
+      "https://www.moxfield.com/*",
+      "https://moxfield.com/*"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "content_scripts": [
+      {
+        "matches": [
+          "https://www.mtggoldfish.com/deck/*",
+          "https://www.mtggoldfish.com/archetype/*",
+          "https://www.moxfield.com/decks/*",
+          "https://moxfield.com/decks/*"
+        ],
+        "js": ["content.js"]
+      }
+    ]
+  }
