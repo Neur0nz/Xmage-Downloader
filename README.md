@@ -5,13 +5,6 @@ A Chrome extension that allows you to download MTG decks from various platforms 
 ## Supported Platforms
 - MTGGoldfish
 - Moxfield
-## Easy Installation Method
-
-1. Go to realses.
-2. Download the newest .crx file.
-2. Open Chrome and go to `chrome://extensions/`
-3. Enable "Developer mode" in the top right
-4. Drag the .crx file to the extension window.
 
 ## Manual Installation
 
