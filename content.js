@@ -415,7 +415,7 @@ function setupGoldfishDownloadTriggerListener() {
 
                 if (dropdownMenu) addGoldfishDownloadMenuItem(dropdownMenu);
                 else console.error('XMage Downloader: Could not find Goldfish download menu.');
-            }, 150); // Delay may need adjustment
+            }, 0); // Delay may need adjustment
         }
     }, true);
 }
